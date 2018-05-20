@@ -1,16 +1,19 @@
 html, body {
   margin: 0;
   height: 100%;
-	background-color: #e6e6e6;
+  background-color: #e6e6e6;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
 }
 
 body {
-	font: 10px sans-serif;
+  font: 10px sans-serif;
 }
 
 path {
-	stroke:rgb(255, 255, 255);
-	stroke-width: 3.5px;
+  stroke:rgb(255, 255, 255);
+  stroke-width: 3.5px;
 }
 
 .flex-container {
@@ -18,9 +21,9 @@ path {
 }
 
 h2 {
-    color: #55007f;
-    font-family: verdana;
-    font-size: 150%;
+  color: #55007f;
+  font-family: verdana;
+  font-size: 150%;
 }
 
 .node {
@@ -35,16 +38,16 @@ h2 {
 }
 
 svg text{
-	fill:grey;
-	font-size:11px;
+  fill:grey;
+  font-size:11px;
 }
 
 svg .values text{
-	pointer-events:none;
-	stroke-width: 0.5px;
+  pointer-events:none;
+  stroke-width: 0.5px;
 }
 
 .groups:hover{
-	cursor:pointer;
-	font-weight:bold;
+  cursor:pointer;
+  font-weight:bold;
 }
