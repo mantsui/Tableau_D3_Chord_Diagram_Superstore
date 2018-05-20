@@ -199,8 +199,8 @@ function Dimension_Elements(FlatData, arrayDimensionNames){//Test
 /* ---------------- Part 3: Draw D3 Chord Diagram (Superstore) Section [Start] ----------------- */
 function Draw_D3_Chord_Diagram(InputData, Element_List, Color_List) {
 
-	var D3_innerRadius=220, D3_outerRadius=250;
-	var D3_width=630, D3_height=630;
+	var D3_innerRadius=180, D3_outerRadius=200;
+	var D3_width=600, D3_height=600;
 
 	// Translates the element and its children by x units in the x-axis
 	var D3_translate_X=300;
